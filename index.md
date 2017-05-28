@@ -1,18 +1,19 @@
-#My Personal Page
+# My Personal Page
 
-##About
-Hi, I'm Restioson. I'm a developer from South Africa. I develop Python and Java code. I particularly love making games
+## About
+Hi, I'm Restioson. I'm a developer from South Africa. I develop Python and Java code.
 
-##Projects
+## Projects
 All my projects are on GitHub.
 
-##Upcoming game: Misthalon
-I'm about to start work on a new project: a topdown rpg style game named "Misthalon". Will update more!
+### Kettle-Engine
+Ambitious, WIP project which aims to be a Kotlin with libGDX game engine
 
+## Licensing
+Unless I specify otherwise, all my code on GitHub is licensed under the [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0), and other resources under the [Creative Commons BY-SA 4.0 License](https://creativecommons.org/licenses/by-sa/4.0/legalcode).
 
-##Licensing
-Unless I specify otherwise, all my code on GitHub is licensed under the [GNU GPL v3.0](https://www.tldrlegal.com/l/gpl-3.0#summary), and other resources under the [Creative Commons v3.0](https://tldrlegal.com/license/creative-commons-attribution-(cc)#summary) license.
-
-##Contact
+## Contact
 Email: [restiosondev@gmail.com](restiosondev@gmail.com)
 Twitter: [@Restioson](twitter.com/Restioson)
+IRC: Restioson
+Discord: Restioson
