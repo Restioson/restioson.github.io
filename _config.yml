@@ -1,7 +1,7 @@
-title: Restioson.GitHub.IO
-description: 
-google_analytics: 
-show_downloads: true
+title: Restioson's Page
+description: My page personal page
+google_analytics: UA-99989693-1
+show_downloads: false
 theme: jekyll-theme-midnight
 
 gems:
