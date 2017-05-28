@@ -1,6 +1,3 @@
-# My Personal Page
-
-
 ## About
 Hi, I'm Restioson. I'm a developer from South Africa. I develop Python and Java code.
 
