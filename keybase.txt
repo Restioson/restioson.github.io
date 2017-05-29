@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/restioson
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://restioson.github.io
+  * I am restioson (https://keybase.io/restioson) on keybase.
+  * I have a public key ASAMBChw2-kQaABKSxFJx1Rrtxrc-lV0Cj9DC5l5kOWcqgo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01200c042870dbe91068004a4b1149c7546bb71adcfa55740a3f430b997990e59caa0a",
+            "host": "keybase.io",
+            "kid": "01200c042870dbe91068004a4b1149c7546bb71adcfa55740a3f430b997990e59caa0a",
+            "uid": "5c81dec0a1e82d22cb012e2b1eb42f19",
+            "username": "restioson"
+        },
+        "service": {
+            "hostname": "restioson.github.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.23"
+    },
+    "ctime": 1496063742,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1496063573,
+        "hash": "57cfae14bb8d5fe73a171a75f4841f7f6a90a49d314bc9ee3dbc93fdb131b2a15728a7d401bf0e7696b6fb74b845ab68cc627dbc3a479b1c7aaabfb4429035ff",
+        "seqno": 1125760
+    },
+    "prev": "7982dcd79a3738fb8122dabdab3c08762b9435366cce4f76fd1c78f4aec724d7",
+    "seqno": 11,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgDAQocNvpEGgASksRScdUa7ca3PpVdAo/QwuZeZDlnKoKp3BheWxvYWTFAv57ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwMGMwNDI4NzBkYmU5MTA2ODAwNGE0YjExNDljNzU0NmJiNzFhZGNmYTU1NzQwYTNmNDMwYjk5Nzk5MGU1OWNhYTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwMGMwNDI4NzBkYmU5MTA2ODAwNGE0YjExNDljNzU0NmJiNzFhZGNmYTU1NzQwYTNmNDMwYjk5Nzk5MGU1OWNhYTBhIiwidWlkIjoiNWM4MWRlYzBhMWU4MmQyMmNiMDEyZTJiMWViNDJmMTkiLCJ1c2VybmFtZSI6InJlc3Rpb3NvbiJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoicmVzdGlvc29uLmdpdGh1Yi5pbyIsInByb3RvY29sIjoiaHR0cHM6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjIzIn0sImN0aW1lIjoxNDk2MDYzNzQyLCJleHBpcmVfaW4iOjUwNDU3NjAwMCwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE0OTYwNjM1NzMsImhhc2giOiI1N2NmYWUxNGJiOGQ1ZmU3M2ExNzFhNzVmNDg0MWY3ZjZhOTBhNDlkMzE0YmM5ZWUzZGJjOTNmZGIxMzFiMmExNTcyOGE3ZDQwMWJmMGU3Njk2YjZmYjc0Yjg0NWFiNjhjYzYyN2RiYzNhNDc5YjFjN2FhYWJmYjQ0MjkwMzVmZiIsInNlcW5vIjoxMTI1NzYwfSwicHJldiI6Ijc5ODJkY2Q3OWEzNzM4ZmI4MTIyZGFiZGFiM2MwODc2MmI5NDM1MzY2Y2NlNGY3NmZkMWM3OGY0YWVjNzI0ZDciLCJzZXFubyI6MTEsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RA67HorNIm4M25iK4iJYoXX5PLCj9GhF7ACKbgGR4fGy514PhI1ct/gznRaaPsaJ5XTjlJ2IH5HrfbCF2TXJ9GCqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIFE680Zcglj8VDb7ntuv80Nr1jaNVZWOeBYz3yb0/dBWo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/restioson
+
+==================================================================
