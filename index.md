@@ -4,7 +4,7 @@ Hi, I'm Restioson. I'm a developer from South Africa. I develop Python and Java 
 ## Projects
 All my projects are on GitHub.
 
-### Kettle-Engine
+### [Kettle-Engine](https://github.com/Restioson/kettle-engine)
 Ambitious, WIP project which aims to be a Kotlin with libGDX game engine
 
 ## Licensing
