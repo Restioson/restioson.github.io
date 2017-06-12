@@ -21,11 +21,11 @@
     <script>
         function goBack() {
             if (document.referer) {
-                window.location = document.referer;
+                window.location.href = document.referer;
             }
             
             else {
-                window.location = "https://restioson.github.io";
+                window.location.href = "https://restioson.github.io";
             }
         }
     </script>
