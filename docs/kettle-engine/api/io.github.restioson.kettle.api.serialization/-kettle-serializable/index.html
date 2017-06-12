@@ -1,0 +1,48 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>KettleSerializable - api</title>
+<link rel="stylesheet" href="..\..\..\style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">api</a>&nbsp;/&nbsp;<a href="../index.html">io.github.restioson.kettle.api.serialization</a>&nbsp;/&nbsp;<a href=".">KettleSerializable</a><br/>
+<br/>
+<h1>KettleSerializable</h1>
+<code><span class="keyword">interface </span><span class="identifier">KettleSerializable</span></code> <a href="https://github.com/Restioson/kettle-engine/tree/master/api/src/kotlin/io/github/restioson/kettle/api/serialization/KettleSerializable.kt#L6">(source)</a>
+<p>Interface for classes that can be serialized</p>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<a href="deserialize.html">deserialize</a></td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">deserialize</span><span class="symbol">(</span><span class="identifier" id="io.github.restioson.kettle.api.serialization.KettleSerializable$deserialize(io.github.restioson.kettle.api.serialization.KettleBuffer)/buffer">buffer</span><span class="symbol">:</span>&nbsp;<a href="../-kettle-buffer/index.html"><span class="identifier">KettleBuffer</span></a><span class="symbol">)</span><span class="symbol">: </span><span class="identifier">Unit</span></code>
+<p>Deserialize the component from the buffer</p>
+</td>
+</tr>
+<tr>
+<td>
+<a href="serialize.html">serialize</a></td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">serialize</span><span class="symbol">(</span><span class="identifier" id="io.github.restioson.kettle.api.serialization.KettleSerializable$serialize(io.github.restioson.kettle.api.serialization.KettleBuffer, java.util.ArrayList((io.github.restioson.kettle.api.serialization.KettleSerializable)))/buffer">buffer</span><span class="symbol">:</span>&nbsp;<a href="../-kettle-buffer/index.html"><span class="identifier">KettleBuffer</span></a><span class="symbol">, </span><span class="identifier" id="io.github.restioson.kettle.api.serialization.KettleSerializable$serialize(io.github.restioson.kettle.api.serialization.KettleBuffer, java.util.ArrayList((io.github.restioson.kettle.api.serialization.KettleSerializable)))/extraList">extraList</span><span class="symbol">:</span>&nbsp;<span class="identifier">ArrayList</span><span class="symbol">&lt;</span><span class="identifier">KettleSerializable</span><span class="symbol">&gt;</span><span class="symbol">)</span><span class="symbol">: </span><span class="identifier">Unit</span></code>
+<p>Serialize the component into the buffer</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Inheritors</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<a href="../-serializable-component/index.html">SerializableComponent</a></td>
+<td>
+<code><span class="keyword">interface </span><span class="identifier">SerializableComponent</span>&nbsp;<span class="symbol">:</span>&nbsp;<span class="identifier">KettleSerializable</span><span class="symbol">, </span><span class="identifier">Component</span></code>
+<p>Interface for components which can be serialized</p>
+</td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

@@ -7,6 +7,10 @@ body, table {
     font-weight:300;
 }
 
+.docpage {
+    font: 18px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 .keyword {
     color:black;
     font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
