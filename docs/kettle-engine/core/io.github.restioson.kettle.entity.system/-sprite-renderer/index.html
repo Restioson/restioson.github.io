@@ -1,0 +1,96 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>SpriteRenderer - core</title>
+<link rel="stylesheet" href="..\..\..\style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">core</a>&nbsp;/&nbsp;<a href="../index.html">io.github.restioson.kettle.entity.system</a>&nbsp;/&nbsp;<a href=".">SpriteRenderer</a><br/>
+<br/>
+<h1>SpriteRenderer</h1>
+<code><span class="keyword">open</span> <span class="keyword">class </span><span class="identifier">SpriteRenderer</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="../-renderer/index.html"><span class="identifier">Renderer</span></a></code> <a href="https://github.com/Restioson/kettle-engine/tree/master/core/src/kotlin/io/github/restioson/kettle/entity/system/SpriteRenderer.kt#L18">(source)</a>
+<p>Renders entities with a spritebatch</p>
+<h3>Constructors</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<a href="-init-.html">&lt;init&gt;</a></td>
+<td>
+<code><span class="identifier">SpriteRenderer</span><span class="symbol">(</span><span class="identifier" id="io.github.restioson.kettle.entity.system.SpriteRenderer$<init>(kotlin.Float, kotlin.Float)/w">w</span><span class="symbol">:</span>&nbsp;<span class="identifier">Float</span><span class="symbol">, </span><span class="identifier" id="io.github.restioson.kettle.entity.system.SpriteRenderer$<init>(kotlin.Float, kotlin.Float)/h">h</span><span class="symbol">:</span>&nbsp;<span class="identifier">Float</span><span class="symbol">)</span></code>
+<p>Renders entities with a spritebatch</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<a href="batch.html">batch</a></td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">batch</span><span class="symbol">: </span><span class="identifier">SpriteBatch</span></code></td>
+</tr>
+<tr>
+<td>
+<a href="camera.html">camera</a></td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">camera</span><span class="symbol">: </span><span class="identifier">Camera</span></code>
+<p>An instance of Camera which represents the camera used in drawing</p>
+</td>
+</tr>
+<tr>
+<td>
+<a href="queued-entities.html">queuedEntities</a></td>
+<td>
+<code><span class="keyword">open</span> <span class="keyword">val </span><span class="identifier">queuedEntities</span><span class="symbol">: </span><span class="identifier">Array</span><span class="symbol">&lt;</span><span class="identifier">Entity</span><span class="symbol">&gt;</span></code>
+<p>A queue of entities to be rendered</p>
+</td>
+</tr>
+<tr>
+<td>
+<a href="viewport.html">viewport</a></td>
+<td>
+<code><span class="keyword">open</span> <span class="keyword">val </span><span class="identifier">viewport</span><span class="symbol">: </span><span class="identifier">Viewport</span></code>
+<p>Viewport to view the world with</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<a href="update.html">update</a></td>
+<td>
+<code><span class="keyword">open</span> <span class="keyword">fun </span><span class="identifier">update</span><span class="symbol">(</span><span class="identifier" id="io.github.restioson.kettle.entity.system.SpriteRenderer$update(kotlin.Float)/delta">delta</span><span class="symbol">:</span>&nbsp;<span class="identifier">Float</span><span class="symbol">)</span><span class="symbol">: </span><span class="identifier">Unit</span></code>
+<p>Draw all queued entities</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Inherited Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<a href="../-renderer/process-entity.html">processEntity</a></td>
+<td>
+<code><span class="keyword">open</span> <span class="keyword">fun </span><span class="identifier">processEntity</span><span class="symbol">(</span><span class="identifier" id="io.github.restioson.kettle.entity.system.Renderer$processEntity(com.badlogic.ashley.core.Entity, kotlin.Float)/entity">entity</span><span class="symbol">:</span>&nbsp;<span class="identifier">Entity</span><span class="symbol">, </span><span class="identifier" id="io.github.restioson.kettle.entity.system.Renderer$processEntity(com.badlogic.ashley.core.Entity, kotlin.Float)/deltaTime">deltaTime</span><span class="symbol">:</span>&nbsp;<span class="identifier">Float</span><span class="symbol">)</span><span class="symbol">: </span><span class="identifier">Unit</span></code>
+<p>Add entity to queue</p>
+</td>
+</tr>
+<tr>
+<td>
+<a href="../-renderer/resize.html">resize</a></td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">resize</span><span class="symbol">(</span><span class="identifier" id="io.github.restioson.kettle.entity.system.Renderer$resize(kotlin.Int, kotlin.Int)/x">x</span><span class="symbol">:</span>&nbsp;<span class="identifier">Int</span><span class="symbol">, </span><span class="identifier" id="io.github.restioson.kettle.entity.system.Renderer$resize(kotlin.Int, kotlin.Int)/y">y</span><span class="symbol">:</span>&nbsp;<span class="identifier">Int</span><span class="symbol">)</span><span class="symbol">: </span><span class="identifier">Unit</span></code>
+<p>Called on window resize</p>
+</td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>
