@@ -1,0 +1,79 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>Level - api</title>
+<link rel="stylesheet" href="..\..\..\style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">api</a>&nbsp;/&nbsp;<a href="../index.html">io.github.restioson.kettle.api</a>&nbsp;/&nbsp;<a href=".">Level</a><br/>
+<br/>
+<h1>Level</h1>
+<code><span class="keyword">interface </span><span class="identifier">Level</span></code> <a href="https://github.com/Restioson/kettle-engine/tree/master/api/src/kotlin/io/github/restioson/kettle/api/Level.kt#L6">(source)</a>
+<h3>Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<a href="engine.html">engine</a></td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">val </span><span class="identifier">engine</span><span class="symbol">: </span><a href="../-kettle/index.html"><span class="identifier">Kettle</span></a></code>
+<p>Reference to the engine simulating this Level</p>
+</td>
+</tr>
+<tr>
+<td>
+<a href="entity-engine.html">entityEngine</a></td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">val </span><span class="identifier">entityEngine</span><span class="symbol">: </span><span class="identifier">PooledEngine</span></code>
+<p>Ashley entity engine</p>
+</td>
+</tr>
+<tr>
+<td>
+<a href="paused.html">paused</a></td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">var </span><span class="identifier">paused</span><span class="symbol">: </span><span class="identifier">Boolean</span></code>
+<p>Whether game is paused</p>
+</td>
+</tr>
+<tr>
+<td>
+<a href="world.html">world</a></td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">var </span><span class="identifier">world</span><span class="symbol">: </span><span class="identifier">World</span></code>
+<p>Instance of the Box2D world</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<a href="pause.html">pause</a></td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">pause</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><span class="identifier">Unit</span></code>
+<p>Called to pause sim</p>
+</td>
+</tr>
+<tr>
+<td>
+<a href="resume.html">resume</a></td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">resume</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><span class="identifier">Unit</span></code>
+<p>Called to unpause sim</p>
+</td>
+</tr>
+<tr>
+<td>
+<a href="step.html">step</a></td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">step</span><span class="symbol">(</span><span class="identifier" id="io.github.restioson.kettle.api.Level$step(kotlin.Float)/delta">delta</span><span class="symbol">:</span>&nbsp;<span class="identifier">Float</span><span class="symbol">)</span><span class="symbol">: </span><span class="identifier">Unit</span></code>
+<p>Steps this level by a single tick</p>
+</td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

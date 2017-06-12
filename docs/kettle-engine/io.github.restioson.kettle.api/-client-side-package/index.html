@@ -1,0 +1,73 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>ClientSidePackage - api</title>
+<link rel="stylesheet" href="..\..\..\style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">api</a>&nbsp;/&nbsp;<a href="../index.html">io.github.restioson.kettle.api</a>&nbsp;/&nbsp;<a href=".">ClientSidePackage</a><br/>
+<br/>
+<h1>ClientSidePackage</h1>
+<code><span class="keyword">interface </span><span class="identifier">ClientSidePackage</span></code> <a href="https://github.com/Restioson/kettle-engine/tree/master/api/src/kotlin/io/github/restioson/kettle/api/ClientSidePackage.kt#L10">(source)</a>
+<p>Client side logic for content packages should go here</p>
+<p>Register assets in constructor</p>
+<h3>Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<a href="level.html">level</a></td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">val </span><span class="identifier">level</span><span class="symbol">: </span><a href="../-level/index.html"><span class="identifier">Level</span></a></code>
+<p>Current level</p>
+</td>
+</tr>
+<tr>
+<td>
+<a href="screen.html">screen</a></td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">val </span><span class="identifier">screen</span><span class="symbol">: </span><a href="../../io.github.restioson.kettle.api.screen/-kettle-screen/index.html"><span class="identifier">KettleScreen</span></a></code>
+<p>Current screen</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<a href="create.html">create</a></td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">create</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><span class="identifier">Unit</span></code>
+<p>Called after assets are loaded, so initialise things requiring assets here</p>
+</td>
+</tr>
+<tr>
+<td>
+<a href="dispose.html">dispose</a></td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">dispose</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><span class="identifier">Unit</span></code>
+<p>Dispose of internal Disposables</p>
+</td>
+</tr>
+<tr>
+<td>
+<a href="pause.html">pause</a></td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">pause</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><span class="identifier">Unit</span></code>
+<p>Called on pause of game</p>
+</td>
+</tr>
+<tr>
+<td>
+<a href="resume.html">resume</a></td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">resume</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><span class="identifier">Unit</span></code>
+<p>Called on resume of game</p>
+</td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

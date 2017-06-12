@@ -1,0 +1,95 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>KettleScreen - api</title>
+<link rel="stylesheet" href="..\..\..\style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">api</a>&nbsp;/&nbsp;<a href="../index.html">io.github.restioson.kettle.api.screen</a>&nbsp;/&nbsp;<a href=".">KettleScreen</a><br/>
+<br/>
+<h1>KettleScreen</h1>
+<code><span class="keyword">interface </span><span class="identifier">KettleScreen</span>&nbsp;<span class="symbol">:</span>&nbsp;<span class="identifier">Screen</span></code> <a href="https://github.com/Restioson/kettle-engine/tree/master/api/src/kotlin/io/github/restioson/kettle/api/screen/KettleScreen.kt#L7">(source)</a>
+<h3>Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<a href="engine.html">engine</a></td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">val </span><span class="identifier">engine</span><span class="symbol">: </span><a href="../../io.github.restioson.kettle.api/-kettle/index.html"><span class="identifier">Kettle</span></a></code>
+<p>The engine associated with this screen</p>
+</td>
+</tr>
+<tr>
+<td>
+<a href="gui-camera.html">guiCamera</a></td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">val </span><span class="identifier">guiCamera</span><span class="symbol">: </span><span class="identifier">Camera</span></code>
+<p>Camera to render GUI with</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<a href="dispose.html">dispose</a></td>
+<td>
+<code><span class="keyword">open</span> <span class="keyword">fun </span><span class="identifier">dispose</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><span class="identifier">Unit</span></code>
+<p>Dispose of assets internally used by screen</p>
+</td>
+</tr>
+<tr>
+<td>
+<a href="hide.html">hide</a></td>
+<td>
+<code><span class="keyword">open</span> <span class="keyword">fun </span><span class="identifier">hide</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><span class="identifier">Unit</span></code>
+<p>Hide screen</p>
+</td>
+</tr>
+<tr>
+<td>
+<a href="pause.html">pause</a></td>
+<td>
+<code><span class="keyword">open</span> <span class="keyword">fun </span><span class="identifier">pause</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><span class="identifier">Unit</span></code>
+<p>Pause screen</p>
+</td>
+</tr>
+<tr>
+<td>
+<a href="render.html">render</a></td>
+<td>
+<code><span class="keyword">open</span> <span class="keyword">fun </span><span class="identifier">render</span><span class="symbol">(</span><span class="identifier" id="io.github.restioson.kettle.api.screen.KettleScreen$render(kotlin.Float)/delta">delta</span><span class="symbol">:</span>&nbsp;<span class="identifier">Float</span><span class="symbol">)</span><span class="symbol">: </span><span class="identifier">Unit</span></code>
+<p>Render</p>
+</td>
+</tr>
+<tr>
+<td>
+<a href="resize.html">resize</a></td>
+<td>
+<code><span class="keyword">open</span> <span class="keyword">fun </span><span class="identifier">resize</span><span class="symbol">(</span><span class="identifier" id="io.github.restioson.kettle.api.screen.KettleScreen$resize(kotlin.Int, kotlin.Int)/width">width</span><span class="symbol">:</span>&nbsp;<span class="identifier">Int</span><span class="symbol">, </span><span class="identifier" id="io.github.restioson.kettle.api.screen.KettleScreen$resize(kotlin.Int, kotlin.Int)/height">height</span><span class="symbol">:</span>&nbsp;<span class="identifier">Int</span><span class="symbol">)</span><span class="symbol">: </span><span class="identifier">Unit</span></code>
+<p>Resize screen</p>
+</td>
+</tr>
+<tr>
+<td>
+<a href="resume.html">resume</a></td>
+<td>
+<code><span class="keyword">open</span> <span class="keyword">fun </span><span class="identifier">resume</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><span class="identifier">Unit</span></code>
+<p>Resume screen</p>
+</td>
+</tr>
+<tr>
+<td>
+<a href="show.html">show</a></td>
+<td>
+<code><span class="keyword">open</span> <span class="keyword">fun </span><span class="identifier">show</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><span class="identifier">Unit</span></code>
+<p>Show screen</p>
+</td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>
