@@ -15,12 +15,12 @@ Ambitious, WIP project which aims to be a Kotlin with libGDX game engine. You ca
 Unless I specify otherwise, all my code on GitHub is licensed under the [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0), and other resources under the [Creative Commons BY-SA 4.0 License](https://creativecommons.org/licenses/by-sa/4.0/legalcode).
 
 ## Contact
-Email: [restiosondev@gmail.com](restiosondev@gmail.com)
+**Email**: [restiosondev@gmail.com](mailto:restiosondev@gmail.com)
 
-Twitter: [@Restioson](https://twitter.com/Restioson)
+**Twitter**: [@Restioson](https://twitter.com/Restioson)
 
-IRC: Restioson
+**IRC**: Restioson/Restioson__
 
-Discord: Restioson
+**Discord**: Restioson#8323
 
-Keybase: [Restioson](https://keybase.io/restioson)
+**Keybase**: [Restioson](https://keybase.io/restioson)
